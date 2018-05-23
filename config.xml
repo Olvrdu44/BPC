@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="fr.rainetcom.bezierspadel" version="1.1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="fr.rainetcom.bezierspadel" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>BEZIERS PADEL</name>
     <description>
         Réservez vos terrains, ajoutez-vous à des parties et participez aux animations
@@ -7,47 +7,5 @@
     <author email="contact@rainetcom.fr" href="http://www.rainetcom.fr">
         Team RainetCom
     </author>
-    <content src="index.html" />
-    <preference name="DisallowOverscroll" value="true" />
-    <preference name="android-minSdkVersion" value="20" />
-    <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#ee6e73" />
-    <preference name="StatusBarStyle" value="blacktranslucent" />
-    <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.3" />
-
-    <access origin="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
-    <platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
-    </platform>
-    <engine name="android" spec="~6.3.0" />
-    <plugin name="cordova-plugin-dialogs" spec="~1.2.1" />
-    <plugin name="cordova-plugin-network-information" spec="^1.3.3" />
-    <plugin name="cordova-plugin-inappbrowser" spec="^1.7.1" />
-    <plugin name="onesignal-cordova-plugin" spec="^2.2.2" />
-    <plugin name="cordova-plugin-whitelist" spec="~1.2.1" />
-    <allow-navigation href="*" />
-    <allow-intent href="*" />
-    <access origin="http://*" />
-    <access origin="https://*" />
-    <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
-    <plugin name="cordova-plugin-camera" spec="^3.0.0">
-        <variable name="CAMERA_USAGE_DESCRIPTION" value="L'application aimerait accéder à la camera pour pourvoir vous permettre de modifier votre photo de profil" />
-        <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="L'application aimerait accéder à la galerie pour pourvoir vous permettre de modifier votre photo de profil" />
-    </plugin>
-    <config-file mode="replace" parent="NSPhotoLibraryUsageDescription" platform="ios">
-        <string>L'application aimerait accéder à la galerie pour vous permettre de modifier votre photo de profil</string>
-    </config-file>
-    <config-file mode="replace" parent="NSCameraUsageDescription" platform="ios">
-        <string>L'application aimerait accéder à la caméra pour vous permettre de modifier votre photo de profil</string>
-    </config-file>
+    
 </widget>
